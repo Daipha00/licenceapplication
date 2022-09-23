@@ -1,0 +1,95 @@
+<nav class="navbar navbar-inverse bg-success navbar-fixed-top"> 
+    <div class="container">
+        <img src="#" alt="logo">
+    
+    </div>
+    
+        <h1 class="navbar-brand" style="margin-left: 700px;">TRANSPORT LICENSE APPLICATION SYSTEM</h1>
+       
+    
+    
+    </nav> <br>
+    <nav class="navbar navbar-expand-lg navbar-static-top bg-secondary " >  
+        <div class="container ">
+            <h1 class="navbar-brand">TRANSPORT LICENSE APPLICATION SYSTEM</h1>
+               
+        </div>
+        <a class="navbar-brand "href="#" >Home</a>
+        <a class="navbar-brand "href="about">About</a>
+        <a class="navbar-brand" href="#">Contact</a>
+        <a class="navbar-brand" href="#">Logout</a>
+    </nav>
+   
+        
+   
+<div class="container" style="margin-top: 30px;">
+    <div class="row">
+         <div class="col-md-3 top-margin" style="background-color: paleturquoise; height: 500px;">
+             <div class="panel-heading" style="font-size: 30px; margin-top: 20px;" >
+                <mat-toolbar style="width: 100%; height: 30px;"><b>INFORMATION</b></mat-toolbar>
+            </div><br>
+            <ul>
+                <li>
+                    <p routerLink="#" style="color: blue;"> Personal Information </p>
+                 </li><br>
+                 <li>
+                    <p routerLink="#" style="color: blue;"> Payment Information</p>
+                 </li><br>
+                 <li>
+                     <p routerLink="#" style="color: blue;">Attachment</p>
+                 </li><br>
+                 <li>
+                    <p routerLink="#" style="color: blue;"> Help</p>
+                 </li>
+            </ul>
+             </div>
+             <div class="col" style="background-color: lightblue; margin-left: 30px;">
+                <h1 style="text-align: center; margin-top: 40px;"><b>APPLICATION</b></h1><br>
+                <ol>
+                    <li>
+                        hereby apply for a learner's license authorizing me to drive a learner of
+                         motor vehicle <br> of class
+                        <input type="text" class="input" name="form">
+                    </li><br>
+                    <li>
+                        Learner's license applied for:
+                         <input type="radio"> Fresh
+                         <input type="radio"> Duplicate
+                    </li>
+
+                </ol>
+                (If you applying for a duplicate please state the reason for applying)
+                <br>
+                <input type="text"class="form-control" style="height: 100px;"><br>
+                
+                
+                
+                <div class="col">
+                    <label>Upload Your Photo</label> <span style="color: red">*</span>
+                    <input type="file" name="myfile" id="exampleInputFile" class="form-control" required="" accept="#" style="width: 400px;">
+                </div><br>
+                <div class="row">
+                    
+                    <div class="col-6">
+                         <button type="button" class="btn btn-primary">SAVE</button>  
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-primary">NEXT</button>
+                   </div>
+                </div>
+            </div>
+            </div>
+            </div>
+
+            <br>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="">Transport.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+
+      <router-outlet></router-outlet>
